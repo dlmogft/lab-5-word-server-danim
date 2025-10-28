@@ -15,7 +15,7 @@ The steps to used it are:
   - Run mvn spring-boot:run -Dspring.profiles.active=adjective
   - Run mvn spring-boot:run -Dspring.profiles.active=noun
   - Run mvn spring-boot:run -Dspring.profiles.active=cold-noun
-- Start the class annotated with @SpringBootApplication in this repo. Check that the 6 application are started in the "Application" section. There should be two for NOUN and one for each other SUBJECT, VERB, ARTICLE and ADJECTIVE
+- Check in http://localhost:8010 (Eureka server) that the 6 application are started in the "Application" section. There should be two for NOUN and one for each other SUBJECT, VERB, ARTICLE and ADJECTIVE
 
 # Dependencies
 
