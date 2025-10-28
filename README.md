@@ -24,5 +24,5 @@ Spring Web, Config Server, Eureka Discovery Client, Spring Boot Actuator, Spring
 # Tips
 
 - The project starting class is annotated with **@SpringBootApplication** and also with @EnableDiscoveryClient to indicate that acts as an Eureka Client
-- The **application.yml** config file specifies the URI of the Git repository where the configuration files are stored, **spring-cloud-server-config-danim** and also the different profiles (subject, verb, article, adjective, noun) to read the correct **application-<profile>.yml** file from this Git repository. It specifies also an additional profile (cold-noun) that specifies the words
+- The **application.yml** config file specifies the URI of the Config Server repo **lab-3-server-danim** that loads the configuration files from the **spring-cloud-server-config-danim** Git repository and also the different profiles (subject, verb, article, adjective, noun) to read the correct **application-<profile>.yml** file from this Git repository. It specifies also an additional profile (cold-noun) that specifies the words
 - The **WordController** has a variable that points to the words key in the **application.yml**, or in the **application-<profile>.yml** file from the **spring-cloud-server-config-danim** Git repository
